@@ -11,7 +11,10 @@
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <script>
         $(function() {
-            $("#dob").datepicker();
+            $("#dob").datepicker({
+      changeMonth: true,
+      changeYear: true
+    });
         });
     </script>
     </body>
