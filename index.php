@@ -22,15 +22,15 @@ require_once 'includes/header.php'; ?>
         <label for="specialty" class="form-label">Area of Expertise</label>
         <select class="form-select" id="specialty" name="specialty">
             <option selected>Open this select menu</option>
-            <option value="1">Database Admin</option>
-            <option value="2">Software Developer</option>
-            <option value="3">Web Administrator</option>
-            <option value="3">Other</option>
+            <option >Database Admin</option>
+            <option >Software Developer</option>
+            <option >Web Administrator</option>
+            <option >Other</option>
         </select>
     </div>
     <div class="mb-3">
-        <label for="phone" class="form-label">Contact Number</label>
-        <input type="text" class="form-control" id="phone" name="phone">
+        <label for="contact" class="form-label">Contact Number</label>
+        <input type="text" class="form-control" id="contact" name="contact">
     </div>
     <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Email address</label>
