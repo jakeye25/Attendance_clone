@@ -12,7 +12,7 @@ if(isset($_POST['submit'])){
     $contact = $_POST['contact'];
     $specialty = $_POST['specialty'];
     //call function to insert and track if success or not
-    $isSuccess = $crud->insert($fname, $lname, $dob, $email, $contact, $specialty);
+    $isSuccess = $crud->insertAttendees($fname, $lname, $dob, $email, $contact, $specialty);
 
     if($isSuccess) {
         echo '<h1 class="text-center text-success">You Have Been Registered!</h1>';

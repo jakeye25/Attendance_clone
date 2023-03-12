@@ -8,7 +8,7 @@
             $this->db = $conn;
         }
 
-        public function insert($fname, $lname, $dob, $email, $contact, $specialty){
+        public function insertAttendees($fname, $lname, $dob, $email, $contact, $specialty){
             try {
                 //define sqql statement to be exxecuted
                 $sql = "INSERT INTO attendee (firstname,lastname,dateofbirth,emailaddress,contactnumber,specialty_id) VALUES (:fname,:lname,:dob,:email,:contact,:specialty)";
@@ -30,6 +30,15 @@
                 return false;
             }
         }
+
+        public function getAttendees(){
+            $sql = "SELECT * FROM `attendee`;";
+            $result = $this->db->query($sql);
+            return $result;
+        }
+
+
+
     }
 
 
