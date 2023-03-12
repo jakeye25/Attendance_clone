@@ -7,9 +7,9 @@ if(isset($_POST['submit'])){
     //extract values from the $_POST array
     $fname = $_POST['firstname'];
     $lname = $_POST['lastname'];
-    $dob = $_POST['dateofbirth'];
+    $dob = $_POST['dob'];
     $email = $_POST['email'];
-    $contact = $_POST['phone'];
+    $contact = $_POST['contact'];
     $specialty = $_POST['specialty'];
     //call function to insert and track if success or not
     $isSuccess = $crud->insert($fname, $lname, $dob, $email, $contact, $specialty);

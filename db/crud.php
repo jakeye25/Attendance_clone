@@ -11,7 +11,7 @@
         public function insert($fname, $lname, $dob, $email, $contact, $specialty){
             try {
                 //define sqql statement to be exxecuted
-                $sql = "INSERT INTO attendee VALUES (:fname,:lname,:dob,:email,:contact,:specialty)";
+                $sql = "INSERT INTO attendee (firstname,lastname,dateofbirth,emailaddress,contactnumber,specialty_id) VALUES (:fname,:lname,:dob,:email,:contact,:specialty)";
                 //prepare the sql statement for execution
                 $stmt = $this->db->prepare($sql);
                 //bind all placeholders to the actual values

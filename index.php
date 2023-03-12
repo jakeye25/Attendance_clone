@@ -25,8 +25,8 @@ require_once 'db/conn.php';
         <label for="specialty" class="form-label">Area of Expertise</label>
         <select class="form-select" id="specialty" name="specialty">
             <option selected>Open this select menu</option>
-            <option >Database Admin</option>
-            <option >Software Developer</option>
+            <option value="1">Database Admin</option>
+            <option value="2">Software Developer</option>
             <option >Web Administrator</option>
             <option >Other</option>
         </select>
