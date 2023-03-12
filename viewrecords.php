@@ -17,6 +17,7 @@ $results = $crud->getAttendees();
         <th>Email Address</th>
         <th>Contact Number</th>
         <th>Specialty</th>
+        <th>Actions</th>
     </tr>
     <tr>
         <?php
@@ -29,7 +30,7 @@ $results = $crud->getAttendees();
         <td><?php echo $r['emailaddress']; ?></td>
         <td><?php echo $r['contactnumber']; ?></td>
         <td><?php echo $r['name']; ?></td>
-
+        <td><a href="view.php" class="btn btn-primary">View</a></td>
     </tr>
         <?php } ?>
     </tr>
