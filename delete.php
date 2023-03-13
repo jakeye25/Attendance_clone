@@ -1,0 +1,19 @@
+<?php
+    require_once 'db/conn.php';
+
+    if(!$_GET['id']) {
+        echo 'error';
+    } else {
+        $id = $_GET['id'];
+        //call delete function
+        $result = $crud -> deleteAttendee($id);
+        //redirect to viewrecord
+        if($result) {
+            header("Location: viewrecords.php");
+        } else {
+            echo '';
+        }
+    }
+
+
+?>
