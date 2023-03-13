@@ -56,7 +56,10 @@ if(!isset($_GET['id'])){
         <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email" value="<?php echo $attendee['emailaddress']; ?>">
         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
     </div>
-    <button type="submit" class="btn btn-success btn-block" name="submit">Save Changes</button>
+    <a href="viewrecords.php" class="btn btn-default" name="submit">Back To List</a>
+    <br/>
+    <button type="submit" class="btn btn-success" name="submit">Save Changes</button>
+
 </form>
 
 <?php } ?>
