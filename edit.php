@@ -10,6 +10,7 @@ $results = $crud->getSpecialties();
 if(!isset($_GET['id'])){
     // echo 'error';
     include 'includes/errormessage.php';
+    header("Location: viewrecords.php");
 } else {
     $id = $_GET['id'];
     $attendee = $crud->getAttendeeDetail($id);
@@ -21,7 +22,7 @@ if(!isset($_GET['id'])){
 
 <form method="post" action="editpost.php">
 
-    <input type="hidden" name="id" value="<?php echo $attendee['attendee_id'] ?>"/>>
+    <input type="hidden" name="id" value="<?php echo $attendee['attendee_id'] ?>"/>
 
     <div class="mb-3">
         <label for="firstname" class="form-label">First Name</label>
