@@ -8,7 +8,8 @@ require_once 'db/conn.php';
 $results = $crud->getSpecialties();
 
 if(!isset($_GET['id'])){
-    echo 'error';
+    // echo 'error';
+    include 'includes/errormessage.php';
 } else {
     $id = $_GET['id'];
     $attendee = $crud->getAttendeeDetail($id);
