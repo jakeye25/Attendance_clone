@@ -56,7 +56,6 @@ class crud
             return false;
         }
     }
-
     public function getAttendees()
     {
         try {
