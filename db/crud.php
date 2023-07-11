@@ -83,7 +83,6 @@ class crud
             return false;
         }
     }
-
     public function deleteAttendee($id)
     {
         try {
