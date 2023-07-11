@@ -48,7 +48,6 @@ class crud
             $stmt->bindparam(':email', $email);
             $stmt->bindparam(':contact', $contact);
             $stmt->bindparam(':specialty', $specialty);
-
             $stmt->execute();
             return true;
         } catch (PDOException $e) {
