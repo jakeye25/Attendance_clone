@@ -68,7 +68,6 @@ class crud
             return false;
         }
     }
-
     public function getAttendeeDetail($id)
     {
         try {
