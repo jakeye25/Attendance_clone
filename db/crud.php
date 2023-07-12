@@ -38,7 +38,6 @@ class crud
         try {
             $sql = "UPDATE `attendee` SET `firstname`=:fname,`lastname`=:lname,`dateofbirth`=:dob,
             `emailaddress`=:email,`contactnumber`=:contact,`specialty_id`=:specialty WHERE attendee_id = :id";
-
             $stmt = $this->db->prepare($sql);
             //bind all placeholders to the actual values
             $stmt->bindparam(':id', $id);
