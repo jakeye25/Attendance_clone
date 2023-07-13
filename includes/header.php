@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="css/site.css" />
 
-  
+
 </head>
 
 <body>
@@ -25,6 +25,7 @@
             <a class="nav-link active" aria-current="page" href="index.php">Home</a>
             <a class="nav-link" href="viewrecords.php">View Attendees</a>
 
+            
           </div>
         </div>
       </div>
