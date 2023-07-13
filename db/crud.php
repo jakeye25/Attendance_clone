@@ -4,6 +4,7 @@ class crud
     //private database object
     private $db;
 
+    
     //constructor to initialize private variable to the databasse connection
     function __construct($conn)
     {
@@ -54,7 +55,7 @@ class crud
             return false;
         }
     }
-    
+
     public function getAttendees()
     {
         try {
