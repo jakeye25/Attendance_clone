@@ -23,7 +23,6 @@
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="index.php">Home</a>
             <a class="nav-link" href="viewrecords.php">View Attendees</a>
-
           </div>
         </div>
       </div>
