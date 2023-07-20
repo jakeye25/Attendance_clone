@@ -1,4 +1,3 @@
-
 <?php
 $title = 'Edit Record';
 
