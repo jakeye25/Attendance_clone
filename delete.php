@@ -1,7 +1,7 @@
 <?php
 require_once 'db/conn.php';
 if (!$_GET['id']) {
-    // echo 'error';
+    
     include 'includes/errormessage.php';
 } else {
     $id = $_GET['id'];
