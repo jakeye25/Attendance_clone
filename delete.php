@@ -11,7 +11,7 @@ if (!$_GET['id']) {
     if ($result) {
         header("Location: viewrecords.php");
     } else {
-        // echo '';
+        
         include 'includes/errormessage.php';
     }
 }
