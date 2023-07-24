@@ -13,7 +13,6 @@ if(!isset($_GET['id'])){
 } else {
     $id = $_GET['id'];
     $attendee = $crud->getAttendeeDetail($id);
-
 ?>
 
 <h1 class="text-center">Edit Record</h1>
