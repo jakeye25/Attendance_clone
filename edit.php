@@ -16,7 +16,6 @@ if(!isset($_GET['id'])){
 
 ?>
 
-
 <h1 class="text-center">Edit Record</h1>
 
 <form method="post" action="editpost.php">
