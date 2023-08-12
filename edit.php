@@ -9,11 +9,12 @@ if(!isset($_GET['id'])){
     // echo 'error';
     include 'includes/errormessage.php';
     header("Location: viewrecords.php");
-    
+
 } else {
     $id = $_GET['id'];
     $attendee = $crud->getAttendeeDetail($id);
 ?>
+
 <h1 class="text-center">Edit Record</h1>
 <form method="post" action="editpost.php">
     <input type="hidden" name="id" value="<?php echo $attendee['attendee_id'] ?>"/>
