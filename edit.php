@@ -16,13 +16,14 @@ if(!isset($_GET['id'])){
 ?>
 
 <h1 class="text-center">Edit Record</h1>
+
 <form method="post" action="editpost.php">
     <input type="hidden" name="id" value="<?php echo $attendee['attendee_id'] ?>"/>
     <div class="mb-3">
         <label for="firstname" class="form-label">First Name</label>
         <input type="text" class="form-control" value="<?php echo $attendee['firstname']; ?>" id="firstname" name="firstname">
     </div>
-    
+
     <div class="mb-3">
         <label for="lastname" class="form-label">Last Name</label>
         <input type="text" class="form-control" value="<?php echo $attendee['lastname']; ?>" id="lastname" name="lastname">
