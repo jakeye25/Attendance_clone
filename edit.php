@@ -16,7 +16,6 @@ if(!isset($_GET['id'])){
 ?>
 
 <h1 class="text-center">Edit Record</h1>
-
 <form method="post" action="editpost.php">
     <input type="hidden" name="id" value="<?php echo $attendee['attendee_id'] ?>"/>
     <div class="mb-3">
@@ -32,7 +31,7 @@ if(!isset($_GET['id'])){
         <label for="dob" class="form-label">Date of Birth</label>
         <input type="text" class="form-control" value="<?php echo $attendee['dateofbirth']; ?>" id="dob" name="dob">
     </div>
-    
+
     <div class="mb-3">
         <label for="specialty" class="form-label">Area of Expertise</label>
         <select class="form-select" id="specialty" name="specialty">
