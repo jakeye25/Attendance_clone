@@ -19,7 +19,6 @@ if(isset($_POST['submit'])){
     } else {
         // echo 'error';
     include 'includes/errormessage.php';
-
     }
 } else {
     // echo 'error';
