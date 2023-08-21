@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
     //call crud function
     $result = $crud->editAttendee($id, $fname, $lname, $dob, $email, $contact, $specialty);
     //redirect to index.php
-    
+
     if($result) {
         header("Location: viewrecords.php");
     } else {
@@ -21,7 +21,6 @@ if(isset($_POST['submit'])){
     include 'includes/errormessage.php';
     }
 } else {
-
     include 'includes/errormessage.php';
 }
 ?>
