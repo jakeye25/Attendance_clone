@@ -47,7 +47,6 @@ $results = $crud->getAttendees();
     </tr>
 <?php } ?>
 
-
 </table>
 
 
