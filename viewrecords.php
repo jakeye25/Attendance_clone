@@ -5,7 +5,6 @@ require_once 'includes/header.php';
 require_once 'db/conn.php';
 
 $results = $crud->getAttendees();
-
 ?>
 
 <table class="table">
@@ -36,7 +35,7 @@ $results = $crud->getAttendees();
                     ?></td>
         <td><?php //echo $r['contactnumber'];
             ?></td> -->
-            
+
         <td>
             <?php echo $r['name']; ?>
         </td>
