@@ -16,6 +16,7 @@ if(isset($_POST['submit'])){
     //redirect to index.php
 
     if($result) {
+        
         header("Location: viewrecords.php");
     } else {
 
@@ -23,7 +24,7 @@ if(isset($_POST['submit'])){
 
 }
 } else {
-    
+
     include 'includes/errormessage.php';
 }
 ?>
