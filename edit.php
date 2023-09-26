@@ -20,6 +20,7 @@ if(!isset($_GET['id'])){
     <input type="hidden" name="id" value="<?php echo $attendee['attendee_id'] ?>"/>
     <div class="mb-3">
         <label for="firstname" class="form-label">First Name</label>
+
         <input type="text" class="form-control" value="<?php echo $attendee['firstname']; ?>" id="firstname" name="firstname">
     </div>
 
@@ -36,7 +37,7 @@ if(!isset($_GET['id'])){
     </div>
 
     <div class="mb-3">
-        
+
         <label for="specialty" class="form-label">Area of Expertise</label>
         <select class="form-select" id="specialty" name="specialty">
             <?php while($r = $results->fetch(PDO::FETCH_ASSOC)) { ?>
