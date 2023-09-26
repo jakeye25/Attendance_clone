@@ -28,8 +28,9 @@ if(!isset($_GET['id'])){
         <label for="lastname" class="form-label">Last Name</label>
         <input type="text" class="form-control" value="<?php echo $attendee['lastname']; ?>" id="lastname" name="lastname">
     </div>
-    
+
     <div class="mb-3">
+        
         <label for="dob" class="form-label">Date of Birth</label>
         <input type="text" class="form-control" value="<?php echo $attendee['dateofbirth']; ?>" id="dob" name="dob">
     </div>
