@@ -33,6 +33,7 @@ if(!isset($_GET['id'])){
     <div class="mb-3">
 
         <label for="dob" class="form-label">Date of Birth</label>
+
         <input type="text" class="form-control" value="<?php echo $attendee['dateofbirth']; ?>" id="dob" name="dob">
     </div>
 
