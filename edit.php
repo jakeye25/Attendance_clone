@@ -33,7 +33,6 @@ if(!isset($_GET['id'])){
     </div>
 
     <div class="mb-3">
-
         <label for="specialty" class="form-label">Area of Expertise</label>
         <select class="form-select" id="specialty" name="specialty">
             <?php while($r = $results->fetch(PDO::FETCH_ASSOC)) { ?>
