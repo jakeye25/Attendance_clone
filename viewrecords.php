@@ -1,5 +1,4 @@
 <?php
-
 $title = 'View Records';
 
 require_once 'includes/header.php';
@@ -14,7 +13,7 @@ $results = $crud->getAttendees();
         <th>#</th>
 
         <th>First Name</th>
-        
+
         <th>Last Name</th>
         <!-- <th>Date of Birth</th>
         <th>Email Address</th>
