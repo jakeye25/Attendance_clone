@@ -13,9 +13,10 @@ if(!isset($_GET['id'])){
     include 'includes/errormessage.php';
 
     header("Location: viewrecords.php");
-    
+
 } else {
     $id = $_GET['id'];
+    
     $attendee = $crud->getAttendeeDetail($id);
 ?>
 <h1 class="text-center">Edit Record</h1>
