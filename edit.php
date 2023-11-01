@@ -16,10 +16,11 @@ if(!isset($_GET['id'])){
 
 } else {
     $id = $_GET['id'];
-    
+
     $attendee = $crud->getAttendeeDetail($id);
 ?>
 <h1 class="text-center">Edit Record</h1>
+
 <form method="post" action="editpost.php">
     <input type="hidden" name="id" value="<?php echo $attendee['attendee_id'] ?>"/>
     <div class="mb-3">
