@@ -48,8 +48,9 @@ if(!isset($_GET['id'])){
         <input type="text" class="form-control" value="<?php echo $attendee['dateofbirth']; ?>" id="dob" name="dob">
 
     </div>
-    
+
     <div class="mb-3">
+        
         <label for="specialty" class="form-label">Area of Expertise</label>
         <select class="form-select" id="specialty" name="specialty">
             <?php while($r = $results->fetch(PDO::FETCH_ASSOC)) { ?>
