@@ -66,8 +66,9 @@ if(!isset($_GET['id'])){
             </option>
 
             <?php } ?>
-            
+
         </select>
+        
     </div>
     <div class="mb-3">
         <label for="contact" class="form-label">Contact Number</label>
