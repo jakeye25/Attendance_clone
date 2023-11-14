@@ -62,8 +62,9 @@ if(!isset($_GET['id'])){
                 $attendee['specialty_id']) echo 'selected' ?>>
 
                 <?php echo $r['name']; ?>
+                
             </option>
-            
+
             <?php } ?>
         </select>
     </div>
