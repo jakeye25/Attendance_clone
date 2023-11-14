@@ -63,6 +63,7 @@ if(!isset($_GET['id'])){
 
                 <?php echo $r['name']; ?>
             </option>
+            
             <?php } ?>
         </select>
     </div>
