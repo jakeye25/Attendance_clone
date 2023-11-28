@@ -19,7 +19,7 @@ $results = $crud->getAttendees();
         <!-- <th>Date of Birth</th>
 
         <th>Email Address</th>
-        
+
         <th>Contact Number</th> -->
         <th>Specialty</th>
 
@@ -48,6 +48,7 @@ $results = $crud->getAttendees();
             ?></td> -->
 
         <td>
+            
             <?php echo $r['name']; ?>
         </td>
         <td
