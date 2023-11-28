@@ -90,8 +90,9 @@ if(!isset($_GET['id'])){
     </div>
 
     <a href="viewrecords.php" class="btn btn-default" name="submit">Back To List</a>
+
     <br/>
-    
+
     <button type="submit" class="btn btn-success" name="submit">Save Changes</button>
 
 </form>
