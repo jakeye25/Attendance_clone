@@ -64,8 +64,9 @@ $results = $crud->getAttendees();
             href="delete.php?id=<?php echo $r['attendee_id']; ?>" class="btn btn-danger">Delete</a>
 
         </td>
-        
+
     </tr>
+    
 <?php } ?>
 </table>
 <br />
