@@ -7,6 +7,7 @@ require_once 'db/conn.php';
 
 //get attendee by id
 if (!isset($_GET['id'])) {
+    
     // echo "<h1 class='text-danger'>Please check details and try again</h1>";
     include 'includes/errormessage.php';
 } else {
