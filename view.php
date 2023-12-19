@@ -13,6 +13,7 @@ if (!isset($_GET['id'])) {
     include 'includes/errormessage.php';
 
 } else {
+    
     $id = $_GET['id'];
     $result = $crud->getAttendeeDetail($id);
 
