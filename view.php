@@ -42,8 +42,9 @@ if (!isset($_GET['id'])) {
         </div>
 
     </div>
-    
+
     <br/>
+    
     <div>
 
         <a href="viewrecords.php" class="btn btn-info">Back to List</a>
