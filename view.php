@@ -52,6 +52,7 @@ if (!isset($_GET['id'])) {
         <a href="edit.php?id=<?php echo $result['attendee_id']; ?>" class="btn btn-warning">Edit</a>
 
         <a onclick="return confirm('Are you sure you want to delete this record?')" href="delete.php?id=<?php echo $r['attendee_id']; ?>" class="btn btn-danger">Delete</a>
+
     </div>
 <?php } ?>
 
