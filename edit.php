@@ -102,5 +102,4 @@ if(!isset($_GET['id'])){
 <br/>
 
 <br/>
-
 <?php require_once 'includes/footer.php'; ?>
