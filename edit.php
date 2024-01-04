@@ -96,7 +96,6 @@ if(!isset($_GET['id'])){
     <button type="submit" class="btn btn-success" name="submit">Save Changes</button>
 
 </form>
-
 <?php } ?>
 <br/>
 <br/>
