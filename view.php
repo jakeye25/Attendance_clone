@@ -40,7 +40,6 @@ if (!isset($_GET['id'])) {
             </p>
 
         </div>
-
     </div>
 
     <br/>
