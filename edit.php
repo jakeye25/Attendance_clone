@@ -68,7 +68,6 @@ if(!isset($_GET['id'])){
             <?php } ?>
 
         </select>
-
     </div>
 
     <div class="mb-3">
