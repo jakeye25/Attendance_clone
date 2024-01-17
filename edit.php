@@ -63,7 +63,6 @@ if(!isset($_GET['id'])){
     </div>
     <div class="mb-3">
         <label for="contact" class="form-label">Contact Number</label>
-
         <input type="text" class="form-control" value="<?php echo $attendee['contactnumber']; ?>" id="contact" name="contact">
 
     </div>
