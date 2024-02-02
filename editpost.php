@@ -13,7 +13,6 @@ if(isset($_POST['submit'])){
     $contact = $_POST['contact'];
     $specialty = $_POST['specialty'];
     //call crud function
-
     $result = $crud->editAttendee($id, $fname, $lname, $dob, $email, $contact, $specialty);
 
     //redirect to index.php
