@@ -2,6 +2,7 @@
 require_once 'db/conn.php';
 
 if (!$_GET['id']) {
+    
     include 'includes/errormessage.php';
 } else {
     $id = $_GET['id'];
