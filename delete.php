@@ -5,8 +5,9 @@ if (!$_GET['id']) {
 
     include 'includes/errormessage.php';
 } else {
-    
+
     $id = $_GET['id'];
+    
     //call delete function
     $result = $crud->deleteAttendee($id);
     //redirect to viewrecord
