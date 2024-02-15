@@ -7,8 +7,9 @@ if (!$_GET['id']) {
 } else {
 
     $id = $_GET['id'];
-    
+
     //call delete function
+    
     $result = $crud->deleteAttendee($id);
     //redirect to viewrecord
     if ($result) {
