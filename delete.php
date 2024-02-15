@@ -9,8 +9,9 @@ if (!$_GET['id']) {
     $id = $_GET['id'];
 
     //call delete function
-    
+
     $result = $crud->deleteAttendee($id);
+    
     //redirect to viewrecord
     if ($result) {
         header("Location: viewrecords.php");
