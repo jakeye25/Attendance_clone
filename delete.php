@@ -13,8 +13,9 @@ if (!$_GET['id']) {
     $result = $crud->deleteAttendee($id);
 
     //redirect to viewrecord
-    
+
     if ($result) {
+        
         header("Location: viewrecords.php");
     } else {
         include 'includes/errormessage.php';
