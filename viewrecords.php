@@ -16,7 +16,6 @@ $results = $crud->getAttendees();
         <th>Actions</th>
     </tr>
         <?php
-
         while ($r = $results->fetch(PDO::FETCH_ASSOC)) { ?>
     <tr>
 
