@@ -15,7 +15,6 @@ $results = $crud->getAttendees();
         <th>Specialty</th>
         <th>Actions</th>
     </tr>
-
         <?php
 
         while ($r = $results->fetch(PDO::FETCH_ASSOC)) { ?>
