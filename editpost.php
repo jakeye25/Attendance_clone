@@ -21,8 +21,8 @@ if(isset($_POST['submit'])){
     $specialty = $_POST['specialty'];
 
     //call crud function
-    
-    $result = $crud->editAttendee($id, $fname, $lname, $dob, $email, $contact, $specialty);
+
+    $result = $crud->editAttendee($id,  $fname, $lname, $dob, $email, $contact, $specialty);
     //redirect to index.php
     if($result) {
         header("Location: viewrecords.php");
