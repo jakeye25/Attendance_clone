@@ -10,7 +10,6 @@ if(isset($_POST['submit'])){
     $dob = $_POST['dob'];
     $email = $_POST['email'];
     $contact = $_POST['contact'];
-
     $specialty = $_POST['specialty'];
 
     //call crud function
