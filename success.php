@@ -70,8 +70,9 @@ if(isset($_POST['submit'])){
             Date of Birth: <?php echo $_POST['dob']; ?>
 
         </p>
-        
+
         <p class="card-text">
+            
             Email Address: <?php echo $_POST['email']; ?>
         </p>
         <p class="card-text">
