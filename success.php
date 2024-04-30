@@ -74,8 +74,9 @@ if(isset($_POST['submit'])){
         <p class="card-text">
 
             Email Address: <?php echo $_POST['email']; ?>
-            
+
         </p>
+        
         <p class="card-text">
             Contact Number: <?php echo $_POST['contact']; ?>
         </p>
