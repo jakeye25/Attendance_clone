@@ -80,10 +80,11 @@ if(isset($_POST['submit'])){
         <p class="card-text">
 
             Contact Number: <?php echo $_POST['contact']; ?>
-            
+
         </p>
 
     </div>
+    
 </div>
 <?php
 // echo $_GET['firstname'];
