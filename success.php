@@ -62,7 +62,6 @@ if(isset($_POST['submit'])){
         <h6 class="card-subtitle mb-2 text-muted">
 
             <?php echo $_POST['specialty']; ?>
-
         </h6>
 
         <p class="card-text">
@@ -84,7 +83,7 @@ if(isset($_POST['submit'])){
         </p>
 
     </div>
-    
+
 </div>
 <?php
 // echo $_GET['firstname'];
