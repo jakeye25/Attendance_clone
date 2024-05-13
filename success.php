@@ -70,7 +70,6 @@ if(isset($_POST['submit'])){
         </p>
 
         <p class="card-text">
-
             Email Address: <?php echo $_POST['email']; ?>
 
         </p>
