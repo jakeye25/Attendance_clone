@@ -52,6 +52,7 @@ if(isset($_POST['submit'])){
         </p>
 
     </div>
+    
 </div> -->
 
 <div class="card" style="width: 18rem;">
