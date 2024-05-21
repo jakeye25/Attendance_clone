@@ -82,6 +82,7 @@ if(isset($_POST['submit'])){
     </div>
 
 </div>
+
 <?php
 // echo $_GET['firstname'];
 // echo $_GET['lastname'];
