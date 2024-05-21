@@ -67,7 +67,6 @@ if(isset($_POST['submit'])){
 
         <p class="card-text">
             Date of Birth: <?php echo $_POST['dob']; ?>
-
         </p>
 
         <p class="card-text">
