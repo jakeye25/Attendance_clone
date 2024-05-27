@@ -42,6 +42,7 @@ if(isset($_POST['submit'])){
         Date of Birth: <?php //echo $_GET['dob'];
                         ?>
         </p>
+        
         <p class="card-text">
         Email Address: <?php //echo $_GET['email'];
                         ?>
