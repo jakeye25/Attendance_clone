@@ -37,8 +37,9 @@ if(isset($_POST['submit'])){
         <h6 class="card-subtitle mb-2 text-muted">
         <?php //echo $_GET['specialty'];
         ?>
-        </h6>
         
+        </h6>
+
         <p class="card-text">
 
         Date of Birth: <?php //echo $_GET['dob'];
