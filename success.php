@@ -31,8 +31,9 @@ if(isset($_POST['submit'])){
 
 
 <!-- <div class="card" style="width: 18rem;">
+    
     <div class="card-body">
-        
+
         <h5 class="card-title">
 
             <?php //echo $_GET['firstname'] . ' ' . $_GET['lastname'];
