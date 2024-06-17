@@ -15,8 +15,9 @@ if(isset($_POST['submit'])){
     $email = $_POST['email'];
 
     $contact = $_POST['contact'];
-    
+
     $specialty = $_POST['specialty'];
+    
     //call function to insert and track if success or not
     $isSuccess = $crud->insertAttendees($fname, $lname, $dob, $email, $contact, $specialty);
 
