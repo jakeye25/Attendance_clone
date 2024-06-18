@@ -21,6 +21,7 @@ if(isset($_POST['submit'])){
     $isSuccess = $crud->insertAttendees($fname, $lname, $dob, $email, $contact, $specialty);
 
     if($isSuccess) {
+        
         // echo '<h1 class="text-center text-success">You Have Been Registered!</h1>';
     include 'includes/successmessage.php';
 
