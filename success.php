@@ -11,7 +11,6 @@ if(isset($_POST['submit'])){
     $lname = $_POST['lastname'];
     $dob = $_POST['dob'];
     $email = $_POST['email'];
-
     $contact = $_POST['contact'];
 
     $specialty = $_POST['specialty'];
@@ -26,7 +25,7 @@ if(isset($_POST['submit'])){
     include 'includes/successmessage.php';
 
     } else {
-        
+
         // echo '<h1 class="text-center text-danger">There was an error in processing!</h1>';
     include 'includes/errormessage.php';
 
