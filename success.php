@@ -16,8 +16,9 @@ if(isset($_POST['submit'])){
 
     $dob = $_POST['dob'];
     $email = $_POST['email'];
-    $contact = $_POST['contact'];
     
+    $contact = $_POST['contact'];
+
     $specialty = $_POST['specialty'];
 
     //call function to insert and track if success or not
