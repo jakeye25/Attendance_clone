@@ -1,5 +1,4 @@
 <?php
-
 $title = 'Success';
 
 require_once 'includes/header.php';
@@ -15,7 +14,7 @@ if(isset($_POST['submit'])){
     $lname = $_POST['lastname'];
 
     $dob = $_POST['dob'];
-    
+
     $email = $_POST['email'];
 
     $contact = $_POST['contact'];
