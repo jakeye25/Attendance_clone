@@ -19,7 +19,7 @@ $results = $crud->getAttendees();
         <th>First Name</th>
 
         <th>Last Name</th>
-        
+
         <!-- <th>Date of Birth</th>
 
         <th>Email Address</th>
@@ -31,6 +31,7 @@ $results = $crud->getAttendees();
         <th>Actions</th>
 
     </tr>
+    
         <?php
         while ($r = $results->fetch(PDO::FETCH_ASSOC)) { ?>
     <tr>
