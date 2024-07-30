@@ -33,7 +33,7 @@ $results = $crud->getAttendees();
     </tr>
 
         <?php
-        
+
         while ($r = $results->fetch(PDO::FETCH_ASSOC)) { ?>
 
     <tr>
@@ -43,6 +43,7 @@ $results = $crud->getAttendees();
             <?php echo $r['attendee_id']; ?>
 
         </td>
+        
         <td>
             <?php echo $r['firstname']; ?>
         </td>
