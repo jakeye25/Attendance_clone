@@ -80,8 +80,9 @@ $results = $crud->getAttendees();
         </td>
 
     </tr>
-    
+
 <?php } ?>
+
 </table>
 <br />
 <br />
