@@ -20,7 +20,6 @@ $results = $crud->getAttendees();
         <th>Last Name</th>
 
         <!-- <th>Date of Birth</th>
-
         <th>Email Address</th>
         <th>Contact Number</th> -->
 
