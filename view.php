@@ -38,7 +38,6 @@ if (!isset($_GET['id'])) {
             <p class="card-text">
                 Contact Number: <?php echo $result['contactnumber']; ?>
             </p>
-
         </div>
     </div>
 
