@@ -39,7 +39,6 @@ if (!isset($_GET['id'])) {
     </div>
     <br/>
     <div>
-
         <a href="viewrecords.php" class="btn btn-info">Back to List</a>
 
         <a href="edit.php?id=<?php echo $result['attendee_id']; ?>" class="btn btn-warning">Edit</a>
