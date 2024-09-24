@@ -45,7 +45,6 @@ if (!isset($_GET['id'])) {
 
     </div>
 <?php } ?>
-
 <br />
 <br />
 <?php require_once 'includes/footer.php'; ?>
