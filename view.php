@@ -19,7 +19,6 @@ if (!isset($_GET['id'])) {
     $result = $crud->getAttendeeDetail($id);
 
 ?>
-
     <div class="card" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-title"><?php echo $result['firstname'] . ' ' . $result['lastname']; ?></h5>
