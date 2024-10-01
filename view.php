@@ -26,6 +26,7 @@ if (!isset($_GET['id'])) {
             <p class="card-text">
                 Date of Birth: <?php echo $result['dateofbirth']; ?>
             </p>
+            
             <p class="card-text">
                 Email Address: <?php echo $result['emailaddress']; ?>
             </p>
