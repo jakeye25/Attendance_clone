@@ -27,7 +27,6 @@ $results = $crud->getAttendees();
         <td>
             <?php echo $r['attendee_id']; ?>
         </td>
-
         <td>
 
             <?php echo $r['firstname']; ?>
