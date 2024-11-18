@@ -43,7 +43,7 @@ $results = $crud->getAttendees();
         <td><?php //echo $r['contactnumber'];
 
             ?></td> -->
-            
+
         <td>
 
             <?php echo $r['name']; ?>
@@ -67,7 +67,6 @@ $results = $crud->getAttendees();
 </table>
 
 <br />
-
 <br />
 
 <?php require_once 'includes/footer.php'; ?>
