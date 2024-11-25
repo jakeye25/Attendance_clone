@@ -19,14 +19,13 @@ $results = $crud->getAttendees();
 
         <th>Contact Number</th> -->
         <th>Specialty</th>
-
         <th>Actions</th>
     </tr>
         <?php
         while ($r = $results->fetch(PDO::FETCH_ASSOC)) { ?>
     <tr>
         <td>
-            
+
             <?php echo $r['attendee_id']; ?>
         </td>
         <td>
