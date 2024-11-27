@@ -3,6 +3,7 @@
 $title = 'View Records';
 
 require_once 'includes/header.php';
+
 require_once 'db/conn.php';
 $results = $crud->getAttendees();
 
@@ -21,7 +22,7 @@ $results = $crud->getAttendees();
         <th>Specialty</th>
         <th>Actions</th>
     </tr>
-    
+
         <?php
         while ($r = $results->fetch(PDO::FETCH_ASSOC)) { ?>
     <tr>
