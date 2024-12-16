@@ -24,7 +24,6 @@ $results = $crud->getAttendees();
         <th>Email Address</th>
 
         <th>Contact Number</th> -->
-
         <th>Specialty</th>
 
         <th>Actions</th>
@@ -47,7 +46,7 @@ $results = $crud->getAttendees();
         </td>
 
         <td>
-            
+
             <?php echo $r['lastname']; ?>
 
         </td>
