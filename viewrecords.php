@@ -40,7 +40,6 @@ $results = $crud->getAttendees();
         <td>
 
             <?php echo $r['firstname']; ?>
-
         </td>
 
         <td>
