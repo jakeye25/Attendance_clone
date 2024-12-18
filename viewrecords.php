@@ -10,7 +10,6 @@ $results = $crud->getAttendees();
 ?>
 
 <table class="table">
-
     <tr>
         <th>#</th>
 
