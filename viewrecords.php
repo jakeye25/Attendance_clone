@@ -23,7 +23,6 @@ $results = $crud->getAttendees();
 
         <th>Contact Number</th> -->
         <th>Specialty</th>
-
         <th>Actions</th>
 
     </tr>
