@@ -8,8 +8,9 @@ $results = $crud->getAttendees();
 ?>
 
 <table class="table">
-    
+
     <tr>
+        
         <th>#</th>
         <th>First Name</th>
         <th>Last Name</th>
