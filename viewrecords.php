@@ -22,8 +22,9 @@ $results = $crud->getAttendees();
         <th>Email Address</th>
 
         <th>Contact Number</th> -->
-        
+
         <th>Specialty</th>
+        
         <th>Actions</th>
     </tr>
         <?php
