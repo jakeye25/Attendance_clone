@@ -31,7 +31,6 @@ $results = $crud->getAttendees();
 
         <?php
         while ($r = $results->fetch(PDO::FETCH_ASSOC)) { ?>
-
     <tr>
         <td>
 
