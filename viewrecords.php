@@ -63,8 +63,9 @@ $results = $crud->getAttendees();
         <td><?php //echo $r['contactnumber'];
 
             ?></td> -->
-            
+
         <td>
+            
             <?php echo $r['name']; ?>
         </td>
         <td
