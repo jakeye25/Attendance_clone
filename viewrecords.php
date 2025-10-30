@@ -65,8 +65,9 @@ $results = $crud->getAttendees();
             ?></td> -->
 
         <td>
-            
+
             <?php echo $r['name']; ?>
+            
         </td>
         <td
             <a href="view.php?id=<?php echo $r['attendee_id']; ?>" class="btn btn-primary">View</a>
