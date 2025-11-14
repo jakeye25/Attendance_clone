@@ -1,4 +1,5 @@
 <?php
+
 $title = 'View Record Detail';
 require_once 'includes/header.php';
 
