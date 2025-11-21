@@ -86,7 +86,6 @@ $results = $crud->getAttendees();
 <?php } ?>
 
 </table>
-
 <br />
 <br />
 <?php require_once 'includes/footer.php'; ?>
