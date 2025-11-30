@@ -78,7 +78,6 @@ $results = $crud->getAttendees();
 
             <a onclick="return confirm('Are you sure you want to delete this record?')"
             href="delete.php?id=<?php echo $r['attendee_id']; ?>" class="btn btn-danger">Delete</a>
-
         </td>
     </tr>
 <?php } ?>
